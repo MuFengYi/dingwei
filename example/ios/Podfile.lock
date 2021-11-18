@@ -1,0 +1,22 @@
+PODS:
+  - dingwei (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - dingwei (from `.symlinks/plugins/dingwei/ios`)
+  - Flutter (from `Flutter`)
+
+EXTERNAL SOURCES:
+  dingwei:
+    :path: ".symlinks/plugins/dingwei/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  dingwei: 21b9f089a507d9178259f6d84d82dbf0053a0e49
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+
+PODFILE CHECKSUM: 8e679eca47255a8ca8067c4c67aab20e64cb974d
+
+COCOAPODS: 1.10.1
