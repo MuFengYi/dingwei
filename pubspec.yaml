@@ -10,6 +10,26 @@ dependencies:
   flutter:
     sdk: flutter
 
+
+
+
+
+  # 屏幕适配
+  flutter_screenutil: ^5.0.0+2
+  # 网络请求
+  dio: ^4.0.0
+  
+  path_provider: ^2.0.0
+
+  package_info: ^2.0.2
+  bot_toast: ^4.0.1
+
+
+# 全局状态管理
+  redux: ">=5.0.0 <6.0.0"
+  flutter_redux: ^0.8.2
+
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

@@ -1,21 +1,50 @@
 PODS:
+  - AMap3DMap (8.0.1):
+    - AMapFoundation (~> 1.6.8)
+  - amap_flutter_map (0.0.1):
+    - AMap3DMap
+    - Flutter
+  - AMapFoundation (1.6.8)
   - dingwei (0.0.1):
     - Flutter
   - Flutter (1.0.0)
+  - package_info (0.0.1):
+    - Flutter
+  - path_provider_ios (0.0.1):
+    - Flutter
 
 DEPENDENCIES:
+  - amap_flutter_map (from `.symlinks/plugins/amap_flutter_map/ios`)
   - dingwei (from `.symlinks/plugins/dingwei/ios`)
   - Flutter (from `Flutter`)
+  - package_info (from `.symlinks/plugins/package_info/ios`)
+  - path_provider_ios (from `.symlinks/plugins/path_provider_ios/ios`)
+
+SPEC REPOS:
+  trunk:
+    - AMap3DMap
+    - AMapFoundation
 
 EXTERNAL SOURCES:
+  amap_flutter_map:
+    :path: ".symlinks/plugins/amap_flutter_map/ios"
   dingwei:
     :path: ".symlinks/plugins/dingwei/ios"
   Flutter:
     :path: Flutter
+  package_info:
+    :path: ".symlinks/plugins/package_info/ios"
+  path_provider_ios:
+    :path: ".symlinks/plugins/path_provider_ios/ios"
 
 SPEC CHECKSUMS:
+  AMap3DMap: d903e03e7bf1c51bb6448b66cdebb4a18608a29f
+  amap_flutter_map: 979e54d227cedac6c7504a2151bfbf3bcf96760a
+  AMapFoundation: 32e9a0264ee62f5aa2aaf82bdafdda7985ce09c7
   dingwei: 21b9f089a507d9178259f6d84d82dbf0053a0e49
   Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  package_info: 873975fc26034f0b863a300ad47e7f1ac6c7ec62
+  path_provider_ios: 7d7ce634493af4477d156294792024ec3485acd5
 
 PODFILE CHECKSUM: 8e679eca47255a8ca8067c4c67aab20e64cb974d
 
